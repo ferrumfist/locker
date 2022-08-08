@@ -1,0 +1,25 @@
+{
+    "name": "ferrumfist/locker",
+    "authors": [
+        {
+            "name": "Spirin Iaroslav ",
+            "email": "ferrumfist@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Locker\\": "src/"
+        }
+    },
+    "require-dev": {
+        "php-di/php-di": "^6.4",
+        "phpunit/phpunit": "^9.5",
+        "vimeo/psalm": "^4.26"
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
