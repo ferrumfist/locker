@@ -2,7 +2,7 @@
 
 PHP library performs resource locking
 
-# Install
+# Installation
 
 ```composer
 composer require ferrumfist/locker
