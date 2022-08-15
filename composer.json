@@ -23,6 +23,6 @@
     },
     "scripts": {
         "test": "phpunit",
-        "code-sniffer": "phpcbf --standard=PSR12 ./src"
+        "code-sniffer": "phpcbf --standard=PSR12 ./src ./examples"
     }
 }

@@ -23,6 +23,7 @@ try {
 }
 
 $resource = new LockResource('Test');
+$resource->setTTL(1);
 
 function lockExec(Locker $locker, LockResource $resource)
 {
@@ -35,6 +36,6 @@ function lockExec(Locker $locker, LockResource $resource)
 
 lockExec($locker, $resource); // true
 lockExec($locker, $resource); // false
-$locker->unlock($resource);
+sleep(1);
 lockExec($locker, $resource); // true again
 $locker->unlock($resource);
