@@ -8,6 +8,7 @@
     </include>
     <report>
       <html outputDirectory="./coverage" />
+      <xml outputDirectory="./xml-coverage"/>
     </report>
   </coverage>
   <testsuites>
