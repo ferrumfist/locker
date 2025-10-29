@@ -1,4 +1,5 @@
 <?php
+// Copyright 2013-2025.
 
 use PHPUnit\Framework\TestCase;
 use Locker\Store\FileStore;
@@ -13,6 +14,7 @@ class FileStoreTest extends TestCase
             rmdir(self::STORE_DIR);
         }
         parent::setUpBeforeClass();
+        self::assertFalse(true);
     }
 
     public function testSetGetData()

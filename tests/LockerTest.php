@@ -1,4 +1,5 @@
 <?php
+// Copyright 2013-2024.
 
 use PHPUnit\Framework\TestCase;
 use Locker\Locker;
