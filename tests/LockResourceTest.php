@@ -1,4 +1,5 @@
 <?php
+// Copyright 2013-2023.
 
 use PHPUnit\Framework\TestCase;
 use Locker\Resources\LockResource;
